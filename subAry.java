@@ -13,10 +13,10 @@ public class subAry {
                 for(int k=i;k<=j;k++)
                 {
                     currSum+= arr[k]; //finds the sum of the subArray
-                    // System.out.print(arr[k]+" ");
+                    System.out.print(arr[k]+" ");
                 }
-                System.out.println(currSum);//prints the sum of the subArray
-                // System.out.println();
+                // System.out.println(currSum);//prints the sum of the subArray
+                System.out.println();
                 // totalSubary++;
             }
         }
