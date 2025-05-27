@@ -14,7 +14,7 @@ public class subAryMaxSum
         for(int i=0; i<n;i++)
         {
             for(int j=i;j<n;j++)
-            {   currSum=0;
+            {   currSum=0;//har baar jab surwat karenge naye array k saath to current sum ko initialize karenge 0 k saath kyuki ye value har baar chnage ho jayega
                 for(int k=i;k<=j;k++)
                 {
                     currSum += arr[k];
