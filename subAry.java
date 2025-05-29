@@ -4,12 +4,12 @@ public class subAry {
         int arr[]={2,4,6,8,10};
         int n=5;
         // int totalSubary=0;
-        int currSum=0;
+        // int currSum=0;
         for(int i=0; i<n;i++)
         {
             for(int j=i;j<n;j++)
             {
-                currSum=0;
+                int currSum=0;
                 for(int k=i;k<=j;k++)
                 {
                     currSum+= arr[k]; //finds the sum of the subArray
