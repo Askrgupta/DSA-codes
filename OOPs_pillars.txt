@@ -1,0 +1,43 @@
+class Pen
+{
+    private String color;            //Data i.e.,properties
+    private int tip;
+    
+    void setColor(String newColor){                                  ENCAPSULATION- Data and methods are 
+        color = newColor;             //methods i.e., function         bundled together in a single unit             
+    }                                                                   It implements Data hiding.
+}
+
+
+// Base class
+class Animal{
+    String color;
+
+    void eat(){
+        System.out.println("Eats");
+    }
+    void breath(){
+        System.out.println("Breath");
+    }
+}                                                                   INHERITANCE- it is done using "extends" keyword
+// Derived class                                                                types of INHERITANCE 1. Single Inheritance
+class Fish extends Animal{                                                      2. multi level (Base class-->Derived class-->Derived class) 
+    int fins;                                                                   3.Hierarchial (Single base class multiple derived class)
+4. Hybrid Inheritance 5.Multiple Inheritance(In java it is not possible but it is possible in c++. In java we can achieve this using interfaces)
+    void swim(){
+        System.out.println("Swim");
+    }
+
+    boolean walk(){
+       return false;
+    }
+}                                                                       
+POLYMORPHISM ka matlab hota hai- jab ham EK hi cheez ko multiple form mai karte hai to usko polymorphism Kehte hai
+For example when we were constructing constructor once we constructed using parameterized the other time we constructed using non parameterized
+but the task was only to create object The task was same and it was to create object using different types of constructor
+Polymorphism means when you try to do same thing or similar thing using many different methods
+Polymorphism is of two types 1. compile time polymorphism 2.runtime polymorphism
+
+
+ABSTRACTION:- Hiding all the unnecessary details and SHOWING ONLY THE IMPORTANT PARTS TO THE unnecessary
+Abstraction can be achieved in java using two ways 1. Abstract Classes 2. Interfaces 
