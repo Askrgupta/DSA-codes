@@ -12,7 +12,7 @@ public class matrices2DArray {
                 matrix[i][j] = sc.nextInt();
             }
         }
-
+        sc.close();
         // for output
         for(int i = 0; i<n; i++){
             for (int j = 0; j<m; j++){
